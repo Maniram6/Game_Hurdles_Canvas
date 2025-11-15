@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hurdles Game</title>
+    <link rel="stylesheet" href="fun2.css" />
+  </head>
+  <body>
+    <h1>Welcome to HurdlesGame</h1>
+    <p>Press W/w to jump.</p>
+
+    <button id="Start">Start</button> &nbsp; &nbsp; &nbsp;
+
+    <text>LastGame Score : <span id="lastscore">0</span></text> &nbsp; &nbsp;
+    &nbsp;<button id="ForMusic">&#9835;</button>
+    <div class="box">
+      <div id="cheat"></div>
+      <div id="character"><img id="boy" src="boystart.png" /></div>
+
+      <div id="block"><img id="girl" src="oie_transparent.png" alt="" /></div>
+      <div id="bg2"></div>
+    </div>
+    <h4 id="output"></h4>
+    <!-- we can also use below methods -->
+    <!-- <audio controls>
+      <source src="Interstellar.mp3" type="audio/mpeg" autoplay loop />
+    </audio> -->
+    <!-- <audio
+      controls
+      src="Interstellar.mp3"
+      type="audio/mpeg"
+      autoplay
+      loop
+    ></audio> -->
+
+    <audio
+      id="music"
+      src="epic-motivational-trailer-129210.mp3"
+      type="audio/mpeg"
+      loop
+    ></audio>
+    ,<audio id="music2" src="Game Fail.mp3" type="audio/mpeg"></audio>
+
+    <script src="fun2.js"></script>
+  </body>
+</html>
